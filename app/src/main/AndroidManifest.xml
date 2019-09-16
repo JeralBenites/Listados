@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="pe.com.dev420.listados">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name="pe.com.dev420.listados.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="pe.com.dev420.listados.listview.sinviewholder.EjemploListViewActivity" />
+        <activity android:name="pe.com.dev420.listados.listview.conviewholder.EjemploListViewViewHolderActivity" />
+        <activity android:name="pe.com.dev420.listados.recyclerview.list.vertical.RecyclerViewEjemploListVerticalActivity" />
+        <activity android:name="pe.com.dev420.listados.gridview.EjemploGridViewActivity" />
+        <activity android:name="pe.com.dev420.listados.recyclerview.grid.RecyclerViewEjemploGridActivity" />
+        <activity android:name="pe.com.dev420.listados.recyclerview.list.horizontal.RecyclerViewEjemploListHorizontalActivity" />
+    </application>
+
+</manifest>
